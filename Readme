@@ -1,0 +1,13 @@
+First, I create a simple threadless script. This script will add three numbers (12, 2 and 3) to the list and add them to the list.
+The function that adds numbers to the list sleeps a number of seconds equal to the number we add.
+The result of the script is simply 17 (12 + 2 + 3) and when we sleep the script, the number of seconds is equal to the number that we add to our script.
+It' takes 17 seconds to finish.
+
+I used the threading version of the script. I did the same thing
+But one thread has been used for each append (with the same sleep function)
+The result of our script is 17 again, but it takes 12 seconds (the highest sleep).
+
+
+
+
+
